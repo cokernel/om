@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Om::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Matt Zumwalt", "Justin Coyne"]
+  s.licenses    = ["MIT"]
   s.email       = %q{matt.zumwalt@yourmediashelf.com justin.coyne@mediashelf.com}
   s.homepage    = %q{http://github.com/projecthydra/om}
   s.summary     = %q{OM (Opinionated Metadata): A library to help you tame sprawling XML schemas like MODS.}
@@ -33,7 +34,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.extra_rdoc_files = [
     "LICENSE",
-    "README.textile"
+    "README.md"
   ]
   s.require_paths = ["lib"]
 end
